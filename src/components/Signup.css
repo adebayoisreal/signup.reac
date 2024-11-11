@@ -4,7 +4,7 @@
 .box{
     margin: 150px;
     /* border: 2px solid red; */
-    height: 450px;
+    height: 500px;
     width: 500px;
     margin-left: 400px;
     background-color: white;
@@ -20,7 +20,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 45px;
 }
 .input{
     display: flex;
@@ -42,4 +42,39 @@
     border: none;
     font-size: 18px;
     color: #797979;
+}
+.texts{
+    font-size: 40px;
+
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(122, 51, 122);
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+   
+    width: 200px;
+}
+.icons{
+    font-size: 20px;
+    margin-left: 30px;
 }
